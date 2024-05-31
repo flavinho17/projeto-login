@@ -37,11 +37,14 @@ section#login {
     height: 500px;
     border-radius: 20px;
     box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.450);
+
+    transition: width .5s, height .5s;
+    transition-timing-function: ease;
 }
 
 section#login > div#imagem {
     display: block;
-    background: #5f2c82 url(../imagens/pexels-leandro-paes-leme-906322405-19864163.jpg) no-repeat;
+    background: #5f2c82 url(../imagens/pexels-pixabay-46224.jpg) no-repeat;
     background-size: cover;
     height: 200px;
 }
